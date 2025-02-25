@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #21335b;
+    color: #333;
+}
+header {
+    background: #21335b;
+    color: #bccdef;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Optima;
+}
+.prin {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bccdef;
+    font-size: 32px;
+    text-shadow: 2px 2px 10px #21335b;
+}
+.prin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('fondoLuciferma.jpg') no-repeat center center/cover;
+    filter: brightness(90%);
+    z-index: -1;
+}
+.prin h1 {
+    position: relative;
+    color: #21335b;
+    font-family: Optima;
+}
+.sueños {
+    background: #d8e1f388;
+    padding: 0px 10px; 
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #21335b;
+    display: inline-block; 
+} 
+.contenedor {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    color: #21335b;
+    background-color: #bccdef;
+    font-family: Optima;
+}
+.producto {
+    background: #d8e1f3;
+    border: 30%;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #21335b;
+}
+footer {
+    background: #21335b;
+    color: #bccdef;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
